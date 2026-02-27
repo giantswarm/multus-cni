@@ -1,0 +1,12 @@
+apiVersion: vendir.k14s.io/v1alpha1
+kind: Config
+directories:
+  - path: vendor
+    contents:
+      - path: multus-cni
+        git:
+          depth: 1
+          url: https://github.com/k8snetworkplumbingwg/multus-cni
+          ref: "v4.2.4"
+        includePaths:
+          - deployments/multus-daemonset-thick.yml

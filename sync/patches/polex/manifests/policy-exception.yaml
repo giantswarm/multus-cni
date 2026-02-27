@@ -1,0 +1,31 @@
+apiVersion: policy.giantswarm.io/v1alpha1
+kind: PolicyException
+metadata:
+  annotations:
+    helm.sh/hook: pre-install,pre-upgrade
+  labels:
+    app.kubernetes.io/instance: '{{ .Release.Name }}'
+    app.kubernetes.io/managed-by: '{{ .Release.Service }}'
+    app.kubernetes.io/name: '{{ .Chart.Name }}'
+    app.kubernetes.io/version: '{{ .Chart.AppVersion }}'
+    helm.sh/chart: '{{ .Chart.Name }}'
+    io.giantswarm.application.team: '{{ index .Chart.Annotations "io.giantswarm.application.team"
+      }}'
+  name: multus-cni
+  namespace: policy-exceptions
+spec:
+  policies:
+  - disallow-capabilities-strict
+  - disallow-host-namespaces
+  - disallow-host-path
+  - disallow-privilege-escalation
+  - disallow-privileged-containers
+  - require-run-as-nonroot
+  - restrict-seccomp-strict
+  - restrict-volume-types
+  targets:
+  - kind: DaemonSet
+    names:
+    - {{ .Release.Name }}*
+    namespaces:
+    - {{ .Release.Namespace }}

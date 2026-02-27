@@ -1,0 +1,18 @@
+image:
+  repository: gsoci.azurecr.io
+  name: giantswarm/multus-cni
+  tag: v4.2.4-thick
+
+resources:
+  limits:
+    cpu: "100m"
+    memory: "50Mi"
+  requests:
+    cpu: "100m"
+    memory: "50Mi"
+
+initContainer:
+  resources:
+    requests:
+      cpu: "10m"
+      memory: "15Mi"

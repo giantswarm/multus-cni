@@ -1,0 +1,26 @@
+apiVersion: v1
+data:
+  daemon-config.json: |
+    {
+        "chrootDir": "/hostroot",
+        "cniVersion": "0.3.1",
+        "logLevel": "verbose",
+        "logToStderr": true,
+        "cniConfigDir": "/host/etc/cni/net.d",
+        "multusAutoconfigDir": "/host/etc/cni/net.d",
+        "multusConfigFile": "auto",
+        "socketDir": "/host/run/multus/"
+    }
+kind: ConfigMap
+metadata:
+  labels:
+    app: multus
+    app.kubernetes.io/instance: '{{ .Release.Name }}'
+    app.kubernetes.io/managed-by: '{{ .Release.Service }}'
+    app.kubernetes.io/name: '{{ .Chart.Name }}'
+    app.kubernetes.io/version: '{{ .Chart.AppVersion }}'
+    helm.sh/chart: '{{ .Chart.Name }}'
+    io.giantswarm.application.team: '{{ index .Chart.Annotations "io.giantswarm.application.team" }}'
+    tier: node
+  name: multus-daemon-config
+  namespace: '{{ .Release.Namespace }}'
