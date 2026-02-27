@@ -1,12 +1,12 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/giantswarm/multus/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/giantswarm/multus/tree/main)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/giantswarm/multus/badge)](https://securityscorecards.dev/viewer/?uri=github.com/giantswarm/multus)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/giantswarm/multus-cni/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/giantswarm/multus-cni/tree/main)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/giantswarm/multus-cni/badge)](https://securityscorecards.dev/viewer/?uri=github.com/giantswarm/multus-cni)
 
 [Guide about how to manage an app on Giant Swarm](https://handbook.giantswarm.io/docs/dev-and-releng/app-developer-processes/adding_app_to_appcatalog/)
 
-# multus chart
+# multus-cni chart
 
-Giant Swarm offers a multus App which can be installed in workload clusters.
-Here, we define the multus chart with its templates and default configuration.
+Giant Swarm offers a multus-cni App which can be installed in workload clusters.
+Here, we define the multus-cni chart with its templates and default configuration.
 
 **What is this app?**
 
