@@ -1,0 +1,10 @@
+checks:
+  exclude:
+    - "host-network"
+    - "host-pid"
+    - "no-read-only-root-fs"
+    - "privilege-escalation-container"
+    - "privileged-container"
+    - "run-as-non-root"
+    - "sensitive-host-mounts"
+    - "unset-memory-requirements"
