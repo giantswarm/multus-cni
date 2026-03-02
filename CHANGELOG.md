@@ -7,8 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-03-02
+
 ### Added
 
 - Add upstream chart at v4.2.4.
 
-[Unreleased]: https://github.com/giantswarm/multus-cni/tree/main
+[Unreleased]: https://github.com/giantswarm/multus-cni/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/giantswarm/multus-cni/releases/tag/v0.1.0
