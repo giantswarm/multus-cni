@@ -2,7 +2,7 @@ apiVersion: v2
 # upstream version
 appVersion: 4.2.4
 # giantswarm app version
-version: 0.1.0
+version: 0.1.1
 name: multus-cni
 description: A CNI meta-plugin for multi-homed pods in Kubernetes
 home: https://github.com/giantswarm/multus-cni
