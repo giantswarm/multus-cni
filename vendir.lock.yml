@@ -2,10 +2,10 @@ apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
   - git:
-      commitTitle: 'Merge pull request #1470 from trozet/add_status_delegation...'
-      sha: 705a59eaf96c86e1e977a2fe7b4f5cb19c96c4e6
+      commitTitle: 'Merge pull request #1510 from hrntknr/limit_listener...'
+      sha: db30741512795c258b3ba383a571a66850e8baac
       tags:
-      - v4.2.4
+      - v4.3.0
     path: multus-cni
   path: vendor
 kind: LockConfig
