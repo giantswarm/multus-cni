@@ -1,6 +1,6 @@
 apiVersion: v2
 # upstream version
-appVersion: 4.2.4
+appVersion: 4.3.0
 # giantswarm app version
 version: 0.1.1
 name: multus-cni
