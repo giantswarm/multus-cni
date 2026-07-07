@@ -1,3 +1,4 @@
+{{- if .Capabilities.APIVersions.Has "policy.giantswarm.io/v1alpha1/PolicyException" }}
 apiVersion: policy.giantswarm.io/v1alpha1
 kind: PolicyException
 metadata:
@@ -29,3 +30,4 @@ spec:
     - {{ .Release.Name }}*
     namespaces:
     - {{ .Release.Namespace }}
+{{- end }}
