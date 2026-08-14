@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Update upstream chart to v4.3.0.
+- Add shared helpers file to sync dir.
 
 ## [0.1.1] - 2026-03-05
 
