@@ -92,7 +92,7 @@ spec:
               mountPropagation: Bidirectional
               name: cnibin
       serviceAccountName: multus
-      terminationGracePeriodSeconds: 10
+      terminationGracePeriodSeconds: 30
       tolerations:
         - effect: NoSchedule
           operator: Exists
