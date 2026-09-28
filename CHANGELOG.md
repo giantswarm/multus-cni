@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Update upstream whereabouts chart to v4.3.1.
 - Update architect to v10.10.0 (giantswarm/multus-cni#40)
+- Update architect to v10.11.1 (giantswarm/multus-cni#41)
 
 ### Added
 
