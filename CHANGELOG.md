@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add Github action to create an issue in `giantswarm/giantswarm` for Team Rocket on vendir updates.
 - Update architect to v10.13.1 (giantswarm/multus-cni#50)
 - Update architect to v10.13.2 (giantswarm/multus-cni#51)
+- Update architect to v10.13.4 (giantswarm/multus-cni#53)
 
 ### Added
 
