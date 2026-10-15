@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Update upstream whereabouts chart to v4.3.1.
+- Update upstream multus-cni chart to v4.3.1.
 - Update architect to v10.10.0 (giantswarm/multus-cni#40)
 - Update architect to v10.11.1 (giantswarm/multus-cni#41)
 - Update architect to v10.12.0 (giantswarm/multus-cni#43)
@@ -20,11 +20,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update architect to v10.13.2 (giantswarm/multus-cni#51)
 - Update architect to v10.13.4 (giantswarm/multus-cni#53)
 
+### Fixed
+
+- Fix changelog generation script.
+
 ### Added
 
 - Run the sync script automatically on Renovate vendir branches and push the result for review.
 - Add a check which fails a pull request if the sync script was not run.
-
 - Update upstream chart to v4.3.0.
 - Add shared helpers file to sync dir.
 
