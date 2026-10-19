@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update architect to v10.13.1 (giantswarm/multus-cni#50)
 - Update architect to v10.13.2 (giantswarm/multus-cni#51)
 - Update architect to v10.13.4 (giantswarm/multus-cni#53)
+- Update architect to v10.14.7 (giantswarm/multus-cni#58)
 
 ### Fixed
 
