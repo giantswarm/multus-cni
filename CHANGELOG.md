@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update architect to v10.13.4 (giantswarm/multus-cni#53)
 - Update architect to v10.14.7 (giantswarm/multus-cni#58)
 - Update carvel-dev/vendir to v0.46.3 (giantswarm/multus-cni#63)
+- Update architect to v10.14.9 (giantswarm/multus-cni#64)
 
 ### Fixed
 
