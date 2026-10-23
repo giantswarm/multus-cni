@@ -25,6 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update architect to v10.14.9 (giantswarm/multus-cni#64)
 - Update architect to v10.14.10 (giantswarm/multus-cni#65)
 - Update actions/create-github-app-token to v3.3.0 (giantswarm/multus-cni#69)
+- Update architect to v10.14.18 (giantswarm/multus-cni#70)
 
 ### Fixed
 
