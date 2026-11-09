@@ -91,6 +91,7 @@ spec:
             - mountPath: /host/opt/cni/bin
               mountPropagation: Bidirectional
               name: cnibin
+      priorityClassName: system-node-critical
       serviceAccountName: multus
       terminationGracePeriodSeconds: 30
       tolerations:
