@@ -9,7 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Update upstream multus-cni chart to v4.3.2.
 - Create the vendir update issue as the `giantswarm-project-automation` GitHub App instead of architectbot's `ISSUE_AUTOMATION` token, and take the board item when the board's auto-add adds it first (giantswarm/giantswarm#38800).
 - Use the `giantswarm-release` GitHub App instead of the taylorbot personal access token to push sync commits.
 - Update upstream multus-cni chart to v4.3.1.
@@ -33,6 +32,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update architect to v10.16.5 (giantswarm/multus-cni#74)
 - Update architect to v10.16.6 (giantswarm/multus-cni#76)
 - Update architect to v10.16.7 (giantswarm/multus-cni#77)
+- Update upstream multus-cni chart to v4.3.2.
+- Improve CHANGELOG generation script.
 
 ### Fixed
 
