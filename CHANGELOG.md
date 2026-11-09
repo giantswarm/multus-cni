@@ -34,6 +34,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update upstream multus-cni chart to v4.3.1.
 - Update upstream multus-cni chart to v4.3.2.
 - Improve CHANGELOG generation script.
+- Update architect to v10.17.4 (giantswarm/multus-cni#82)
+- Update mikefarah/yq to v4.54.3 (giantswarm/multus-cni#83)
 
 ### Fixed
 
