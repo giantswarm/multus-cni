@@ -37,6 +37,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update architect to v10.17.4 (giantswarm/multus-cni#82)
 - Update mikefarah/yq to v4.54.3 (giantswarm/multus-cni#83)
 - Update carvel-dev/vendir to v0.47.0 (giantswarm/multus-cni#92)
+- Update architect to v10.18.0 (giantswarm/multus-cni#91)
+- Update architect to v10.19.0 (giantswarm/multus-cni#96)
 
 ### Fixed
 
